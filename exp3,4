@@ -169,7 +169,8 @@ int main() {
 
 ###Control the number of ports opened systems with a) Semephore b) Monitor
 
-```c#include <stdio.h>
+```c
+#include <stdio.h>
 #include <unistd.h>
 #include <pthread.h>
 #include <semaphore.h>
